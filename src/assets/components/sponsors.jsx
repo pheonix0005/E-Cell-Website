@@ -5,7 +5,7 @@ const Sponsor=()=>{
         <>
         <p className="height" color="black
         ">  
-        <div className="flex sponsors">
+        <div className="flex sponsors" id="sponsor">
                 <Marquee direction="right" autoFill="true">
                 <div className="flex">
                 <img src="/images/sponsor1.png" alt="" />

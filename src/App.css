@@ -164,6 +164,7 @@ Marquee{
 
 div.heading{
   margin-top: 200px;
+  z-index: 2;
 }
 .heading{
   margin-top: 300px;
@@ -204,7 +205,8 @@ img.imagess{
 }
 
 .ourmerch{
-  margin-top: 300px;
+  margin-top: 200px;
+  height: 500px;
 }
 .flex2{
   display: flex;
@@ -220,6 +222,7 @@ div.heading{
 
 .heading h1{
   font-size: 100px;
+  color: white;
 }
 
 /*footer css*/
