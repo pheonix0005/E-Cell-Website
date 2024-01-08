@@ -15,7 +15,7 @@ const Video =()=>{
                         `IIITL's E-cell presents`
                     ]}
                     speed={20}
-                    style={{fontSize: '40px', display: 'inline', textAlign: 'left', width: '500px'}}
+                    style={{fontSize: '30px', display: 'inline', textAlign: 'left', width: '500px', fontFamily: 'track'}}
                     repeat={Infinity}
                     />
                 

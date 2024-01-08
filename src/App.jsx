@@ -5,6 +5,8 @@ import './App.css'
 import Navigation from './assets/components/navigation'
 import Video from './assets/components/hero'
 import Sponsor from './assets/components/sponsors'
+import Eventstimeline from './assets/components/events'
+// import 'react-vertical-timeline-component/style.min.css';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,8 +15,8 @@ function App() {
     <>
         <Navigation/>
         <Video/>
-        
         <Sponsor/>
+        
     </>
   )
 }
