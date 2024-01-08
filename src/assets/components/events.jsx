@@ -20,28 +20,28 @@ const Timeline=()=>{
             {/* <h3 className="vertical-timeline-element-title">Creative Director</h3>
             <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
             <div className="eventNames">
-            <h3>
+            <h5>
               OPENING CEREMONY
-            </h3>
-            <h3>
+            </h5>
+            <h5>
               MILLION DOLLAR IDEA
-            </h3>
-            <h3>
+            </h5>
+            <h5>
               TRADE TANGO
-            </h3> <h3>
+            </h5> <h5>
               MYSTERY ROOM
-            </h3> <h3>
+            </h5> <h5>
               SPEAKER SESSION
-            </h3> <h3>
+            </h5> <h5>
               MONOPOLY
-            </h3>  <h3>
+            </h5>  <h5>
               FIND X
-            </h3> <h3>
+            </h5> <h5>
               SILENT DJ
-            </h3>
-            <h3>
+            </h5>
+            <h5>
               GAMING NIGHT
-            </h3>
+            </h5>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -55,21 +55,21 @@ const Timeline=()=>{
             {/* <h3 className="vertical-timeline-element-title">Creative Director</h3>
             <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
             <div className="eventNames">
-            <h3>
+            <h5>
               SPEAKER SESSION
-            </h3>
-            <h3>
+            </h5>
+            <h5>
               E-SHIP QUIZ
-            </h3>
-            <h3>
+            </h5>
+            <h5>
               MYSTERY ROOMS
-            </h3> <h3>
+            </h5> <h5>
               IPL AUCTION
-            </h3> <h3>
+            </h5> <h5>
               VENTURER
-            </h3> <h3>
+            </h5> <h5>
               GAMING NIGHT
-            </h3>
+            </h5>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -83,17 +83,17 @@ const Timeline=()=>{
             {/* <h3 className="vertical-timeline-element-title">Creative Director</h3>
             <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
             <div className="eventNames">
-            <h3>
+            <h5>
               SPEAKER SESSION
-            </h3>
-            <h3>
+            </h5>
+            <h5>
               MONOPOLY
-            </h3>
-            <h3>
+            </h5>
+            <h5>
               RESULTS
-            </h3> <h3>
+            </h5> <h5>
               CLOSING CEREMONY
-            </h3> 
+            </h5> 
             </div>
           </VerticalTimelineElement>
           
