@@ -11,6 +11,7 @@ import Merch from './assets/components/ourmerch'
 // import 'react-vertical-timeline-component/style.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import Footerr from './assets/components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +23,7 @@ function App() {
         <Timeline/>
         <Sponsor/>
         <Merch/>
-        
+        <Footerr/>
     </>
   )
 }
