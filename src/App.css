@@ -159,8 +159,9 @@ video{
 
 .flex{
   display: flex;
-  gap: 60px;
+  gap: 80px;
   justify-content: center;
+  
 
 }
 
@@ -168,6 +169,14 @@ video{
   width: 400px;
   height: 100px;
   margin-top: 15px;
+  animation: scrolling 10s linear infinite;
 }
 
+/* @keyframes scrolling{
+  0%{transform: translateX(0px);}
+  100%{transform: translateX(1300px);}
+} */
 
+Marquee{
+  direction: right;
+}
