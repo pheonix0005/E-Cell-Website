@@ -10,15 +10,15 @@ const Video =()=>{
         </div>
         <div className="mainContent">
             <div className="flexVertical">
-                <TypeAnimation
+                {/* <TypeAnimation
                     sequence={[
                         `IIITL's E-cell presents`
                     ]}
                     speed={20}
-                    style={{fontSize: '30px', display: 'inline', textAlign: 'left', width: '500px', fontFamily: 'track'}}
+                    style={{fontSize: '30px', display: 'inline', textAlign: 'left', width: '500px'}}
                     repeat={Infinity}
-                    />
-                
+                    /> */}
+                <p className='smallText'>IIITL's E-Cell presents</p>
                 <p><span className="E">E</span>nspire<span className="E">'23</span></p>
                 <img src="/images/innovationOdyssey.png" alt="" />
             </div>
