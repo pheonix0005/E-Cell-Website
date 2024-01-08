@@ -1,3 +1,5 @@
+import { TypeAnimation } from 'react-type-animation';
+
 const Video =()=>{
     return(
         <div>
@@ -8,7 +10,15 @@ const Video =()=>{
         </div>
         <div className="mainContent">
             <div className="flexVertical">
-                <p className="smallText">IIITL E-cell presents</p>
+                <TypeAnimation
+                    sequence={[
+                        `IIITL's E-cell presents`
+                    ]}
+                    speed={20}
+                    style={{fontSize: '40px', display: 'inline', textAlign: 'left', width: '500px'}}
+                    repeat={Infinity}
+                    />
+                
                 <p><span className="E">E</span>nspire<span className="E">'23</span></p>
                 <img src="/images/innovationOdyssey.png" alt="" />
             </div>
