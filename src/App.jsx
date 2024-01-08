@@ -13,6 +13,7 @@ function App() {
     <>
         <Navigation/>
         <Video/>
+        
         <Sponsor/>
     </>
   )

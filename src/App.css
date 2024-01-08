@@ -107,6 +107,10 @@ video{
     position: absolute;
 }
 
+/* .video{
+  height: 1500px;
+} */
+
 .mainContent{
     position: relative;
     left: 800px;
@@ -144,4 +148,26 @@ video{
 }
 
 /* Sponsors CSS */
+.height{
+  height: 150px;
+  color: black;
+  position: relative;
+  top: 170px;
+  background-color: #0F1035;
+  
+}
+
+.flex{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+
+}
+
+.sponsors img{
+  width: 400px;
+  height: 100px;
+  margin-top: 15px;
+}
+
 
