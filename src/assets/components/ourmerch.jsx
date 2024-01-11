@@ -6,9 +6,9 @@ const Merch=()=>{
         <>
         <div className="ourmerch container">
             <div className="content flex2 container">
-                <div className="heading">
-                    <h1>OUR</h1>
-                    <h1>MERCH</h1>
+                <div className="heading2">
+                    <h1 className='text-white' style={{fontFamily: 'Track'}}>OUR</h1>
+                    <h1 className='green' style={{fontFamily: 'Track'}}>MERCH</h1>
                 </div>
                 <div className="merchDesigns">
                 <Carousel fade>

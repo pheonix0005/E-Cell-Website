@@ -5,7 +5,7 @@ const Timeline=()=>{
     return(
         <>
         <div className="heading container ">
-          <h1>OUR <span className="green">EVENTS</span></h1> 
+          <h1 className='head'>OUR <span className="green">EVENTS</span></h1> 
         </div>
         <div className="Timeline">
         <VerticalTimeline>

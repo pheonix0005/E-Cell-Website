@@ -162,22 +162,25 @@ Marquee{
 
 /*Vertical TImeline CSS*/
 
-div.heading{
+/* div.heading{
   margin-top: 200px;
   z-index: 2;
-}
+} */
 .heading{
   margin-top: 300px;
   background: black;
   color: #C7DAFA;
   text-shadow: #0F1035;
-  font-size:25px ;
+  /* font-size :20px ; */
   font-family: 'track';
 }
-.Timeline{
-  margin-top: 70px;
-  background: black;
+
+.heading h1{
+  margin-top: 200px;
+  /* font-size: 20px; */
 }
+
+
 
 .green{
   color: #5ce1e6;
@@ -185,7 +188,7 @@ div.heading{
 }
 
 .eventNames>p{
-  font-size: 20px;
+  font-size: 10px;
 }
 
 /*MERCH CSS*/
@@ -221,7 +224,7 @@ div.heading{
 }
 
 .heading h1{
-  font-size: 100px;
+  font-size: 50px;
   color: white;
 }
 
@@ -237,4 +240,24 @@ div.heading{
 
 .footerEn{
   color: #5ce1e6;
+}
+
+.heading2{
+  font-size: 100px;
+}
+
+.bgblue{
+  background:rgb(113, 113, 113) ;
+}
+
+.labels{
+  color:#dcf2f1;
+}
+
+Footer{
+  margin-top: 70px;
+}
+
+.bgcontact{
+  background-color: black;
 }

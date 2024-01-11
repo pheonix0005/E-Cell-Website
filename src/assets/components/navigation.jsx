@@ -1,4 +1,6 @@
-
+import {Link,NavLink} from 'react-router-dom'
+import Footerr from './footer';
+import Contact from './contactus';
 const Navigation=()=>{
     return(
         <nav>
@@ -7,11 +9,19 @@ const Navigation=()=>{
             <img src="/images/logo.png" className="this" alt="" />
           </div>
           <ul>
-            <li><a href="#">HOME</a></li>
+            <li><NavLink to="/">HOME</NavLink></li>
           <li>OUR TEAM</li>
-          <li><a href="#sponsor">OUR SPONSORS</a></li>
-          <li>ABOUT US</li>
-          <li>CONTACT US</li>
+          <li><Link to={`#sponsor`}>Your Name</Link></li>
+          <li><a href="#" target="_blank">ABOUT US</a></li>
+
+          <li>
+            {/* <a href="./components/contactus">CONTACT US</a> */}
+            <NavLink
+                  to="/contactus"
+                >
+                  CONTACT US
+                </NavLink>
+            </li>
         </ul>
         <div className='logo2'>
           <img src="/images/logo2.png" alt="logo2" />
